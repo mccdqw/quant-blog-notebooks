@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.local
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Data files (avoid committing large/raw downloaded data)
+*.csv
+*.parquet
+data/raw/
+
+# Output images (regenerate from notebooks rather than version-control binaries)
+# Comment out the line below if you DO want to track output PNGs in this repo
+# *.png
